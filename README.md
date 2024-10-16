@@ -1,40 +1,25 @@
-# Welcome to Remix!
+# Tareas Ágiles
 
-- 📖 [Remix docs](https://remix.run/docs)
+## Descripción
+Tareas Ágiles es una aplicación de gestión de tareas diseñada para ayudar a los equipos y profesionales a organizar, priorizar y realizar un seguimiento de sus tareas en un entorno ágil. La aplicación permite crear, editar y gestionar tareas con diversas funcionalidades como subtareas, prioridades, fechas límite y más.
 
-## Development
 
-Run the dev server:
+## Características
+- Crear, editar y eliminar tareas
+- Añadir subtareas a las tareas principales
+- Establecer prioridad de tareas: baja, media o alta
+- Filtrar tareas por estado (pendientes, en progreso, completadas)
+- Estadísticas visuales de las tareas
+- Interfaz amigable y receptiva
 
-```shellscript
+## Instalación de dependencias
+npm install 
+
+### Requisitos Previos
+- Node.js v14 o superior
+- npm 
+- MongoDB configurado como base de datos
+ 
+
+### Ejecutar el proyecto 
 npm run dev
-```
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
